@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 17, 2021 at 06:06 PM
+-- Generation Time: Aug 17, 2021 at 06:27 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.14
 
@@ -89,7 +89,7 @@ INSERT INTO `member` (`id`, `name`, `address`, `phone`, `district`, `nid`, `phot
 (1, 'Rownak', 'Dhap', '01749970077', 'Rangpur', 'nid.pdf', 'bill.jpg', 600, 'rownakabin@gmail.com', '123', '123', '2021-08-14 18:00:00', NULL),
 (2, 'Abin', 'Malibag More', '019515987', 'Dhaka', 'Attach_5143217_1.pdf', 'bill.jpg', 200, 'abin555@gmail.com', '999', '999', '2021-08-16 18:00:00', NULL),
 (3, 'Arif', 'Kallayanpur', '0182549752', 'Dhaka', 'Attach_5143182_1.pdf', '3.PNG', 2500, 'arif22@gmail.com', '999', '999', '2021-08-15 18:00:00', NULL),
-(4, 'Susmoy', 'Park Street', '0196546416', 'Sylhet', 'Attach_5143217_1.pdf', '10wmt-superJumbo-v4.jpg', 700, 'susmoy77@gmail.com', '126', '126', NULL, NULL),
+(4, 'Susmoy', 'Park Street', '0196546416', 'Dhaka', 'Attach_5143217_1.pdf', 'bill.jpg', 700, 'susmoy77@gmail.com', '126', '126', '2021-08-16 18:00:00', NULL),
 (5, 'Rakib', 'Motijhil', '019678965', 'Dhaka', 'nid.pdf', 'bill.jpg', 159, 'rakib77@gmail.com', '111', '111', '2021-08-15 18:00:00', NULL),
 (10, 'Hasan', 'Bashundhara', '01647451254', 'Sylhet', 'Attach_5143217_1.pdf', 'download.jpg', 900, 'musk@gmail.com', '159', '159', '2021-08-16 18:00:00', NULL),
 (11, 'Nabil', 'Syamoli', '0197856111', 'Dhaka', 'nid.pdf', 'bill.jpg', 900, 'nabil444@gmail.com', '888', '888', '2021-08-16 18:00:00', NULL),
@@ -212,7 +212,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `member`
 --
 ALTER TABLE `member`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `migrations`
